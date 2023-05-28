@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.animation{
+position: relative;
+width: 100%;
+height: 100vh;
+}
+.animation img{
+    position: relative;
+    animation-name: identifier ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes identifier{
+    0% {
+        top:0%;
+        left:0%;
+         
+    }
+    25% {
+        top:0%;
+        left: 96%; 
+        
+    }
+    
+    50% {
+        top:90vh; 
+        left: 96%; 
+       
+    }
+    75% {
+        top:92%;
+        left: 0;
+       
+    }
+    100% {
+        top:0%;  
+        left:0%;
+  
+    }
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+.one{
+  
+    width: 60px;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    background-color: black;
+    top: 0;
+
+
+}
+.two{
+    height:60px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: black;
+}
+.three{
+    width: 60px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    background-color: black;
+    top: 0;
+}
+.four{
+    height:60px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    background-color: black;
+}
